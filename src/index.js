@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const express = require('express');
+const path = require('path');
+
+App.use(express.static(path.join(__dirname, 'client', 'build')));
+App.get("/*", (req, res) => { res.sendFile(path.join(__dirname, '/FRONTEND/public/index.html')); });
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
