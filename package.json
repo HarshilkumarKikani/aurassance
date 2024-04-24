@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "backend": "sleep 120 && npm run start &",
+    "backend": "npm run start && cd backend &",
     "frontend": "npm start &"
     
 
