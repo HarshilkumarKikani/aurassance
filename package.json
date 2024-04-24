@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^14.5.2",
     "bootstrap": "^5.3.3",
     "joi": "^17.13.0",
+    "nodemon": "^3.1.0",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
     "react-dom": "^18.2.0",
@@ -25,8 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "backend": "cd backend && npm run build && npx nodemon &",
-    "frontend": "npm run start &"
+    "backend": "cd backend && npm run build && npm run dev &",
+    "frontend": "npm run build && npm run start &"
   },
   "eslintConfig": {
     "extends": [
