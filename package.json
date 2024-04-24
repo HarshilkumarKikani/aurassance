@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "backend": "cd backend && npx nodemon &",
-    "frontend": "cd .. && npm run build && npx nodemon"
+    "backend": "cd backend && npx nodemon && cd ..",
+    "frontend": "npm run build && npm run start &"
     
 
   },
