@@ -23,7 +23,7 @@ function Contact() {
                 alert('Please fill in all fields');
                 return;
             }
-            const response = await axios.post('http://localhost:5000/submitform', {
+            const response = await axios.post('home-5015720154.app-ionos.space/submitform', {
                 fullName: formData.fullName,
                 email: formData.email,
                 phoneNumber: formData.phoneNumber,
