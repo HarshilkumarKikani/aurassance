@@ -44,7 +44,7 @@ app.post('/submitform', (req, res) => {
             Country: ${country}\n
             Services Interested: ${servicesInterested}\n
             Message: ${message}
-        ` // Plain text body
+        `
     };
 
     // Send email
