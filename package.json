@@ -28,8 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "nodemon server.js",
-    "backend": "cd backend && nohup npm run dev &",
-    "frontend": "nohup npm run start &"
+    "backend": "cd backend && nohup nodemon server.js &",
+    "frontend": "nohup react-scripts start &"
   },
   "eslintConfig": {
     "extends": [
