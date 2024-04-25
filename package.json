@@ -29,8 +29,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "npm run backend & npm run frontend",
-    "backend": "cd backend && npm run dev",
-    "frontend": "npm run start"
+    "backend": "cd backend && npm run dev &",
+    "frontend": "npm run start &"
   },
   "eslintConfig": {
     "extends": [
