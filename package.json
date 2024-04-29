@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
     "react-scripts": "^5.0.1",
+    "rsync": "^0.6.1",
     "web-vitals": "^3.5.2",
     "webpack-dev-server": "^4.15.2"
   },
@@ -31,9 +32,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "cd backend && nodemon server.js &",
-    "backend": "npm run start",
+    "backend": "npm run start &",
     "frontend": "npm run dev"
-
   },
   "eslintConfig": {
     "extends": [
