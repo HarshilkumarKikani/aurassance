@@ -47,16 +47,15 @@ function Contact() {
         } catch (error) {
             console.error('Error submitting form:', error);
         }
-
     };
 
     return (
-        <div className='contact-main'>
-            <h3 className='mt-3 text-center'>Contact Us</h3>
+        <div className='contact-main mt-5'>
+            <h3 className='mt-4 text-center'>Contact Us</h3>
 
-            <section className='mt-3'>
+            <section>
                 <form onSubmit={handleSubmit}>
-                    <h4>Request a call for an appointment!</h4> <br />
+                    <h4>Request a call!</h4> <br />
                     <label>Full Name</label>
                     <input
                         type='text'
@@ -83,7 +82,6 @@ function Contact() {
                         placeholder='Enter your phone number'
                         value={formData.phoneNumber}
                         onChange={handleChange}
-                        pattern='[0]*'
                     />
 
                     <label>Country</label>
